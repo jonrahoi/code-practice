@@ -1,0 +1,22 @@
+{
+  "name": "code-practice",
+  "version": "1.0.0",
+  "description": "problem sets and answers",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonrahoi/code-practice.git"
+  },
+  "author": "Jon Rahoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonrahoi/code-practice/issues"
+  },
+  "homepage": "https://github.com/jonrahoi/code-practice#readme",
+  "dependencies": {
+    "mocha": "^3.1.2"
+  }
+}
