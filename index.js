@@ -1,4 +1,6 @@
 var printCommon = require('./printCommon')
+var problemOne = require('./euler/problemOne')
+
 
 const myList = [
 	[10, 15, 20, 25, 30],
@@ -8,4 +10,8 @@ const myList = [
 	[20, 20, 20, 15, 10]
 ]
 
-console.log(printCommon(myList))
+
+const totalSum = 1000
+
+console.log('print common numbers - ', printCommon( myList))
+console.log('Find the sum of all the multiples of 3 or 5 below 1000 - ', problemOne(totalSum))
