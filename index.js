@@ -1,6 +1,7 @@
 var printCommon = require('./printCommon')
 var problemOne = require('./euler/problemOne')
 var problemTwo = require('./euler/problemTwo')
+var problemThree = require('./euler/problemThree')
 
 
 const myList = [
@@ -16,9 +17,15 @@ const totalSum = 1000
 
 // console.log('print common numbers - ')
 // console.log(printCommon( myList))
+
 // console.log('------------------')
 // console.log('Find the sum of all the multiples of 3 or 5 below 1000 - ')
 // console.log(problemOne(totalSum))
+
+// console.log('------------------')
+// console.log('Even Fibonacci numbers the sum of even value terms')
+// console.log(problemTwo([1,2]))
+
 console.log('------------------')
-console.log('Even Fibonacci numbers the sum of even value terms')
-console.log(problemTwo([1,2]))
+console.log('What is the largest prime factor of the number 600851475143')
+console.log(problemThree(600851475143))
