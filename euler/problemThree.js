@@ -23,5 +23,4 @@ console.log(factorizedPrimes)
 module.exports = problemThree
 
 
-// FAILED: HAD TO LOOK UP HOW TO DO THIS.
-//Did no know how to find prime factorizations of numbers
+//Did not know how to find prime factorizations of numbers

@@ -2,6 +2,7 @@ var printCommon = require('./printCommon')
 var problemOne = require('./euler/problemOne')
 var problemTwo = require('./euler/problemTwo')
 var problemThree = require('./euler/problemThree')
+var problemFour = require('./euler/problemFour')
 
 
 const myList = [
@@ -26,6 +27,10 @@ const totalSum = 1000
 // console.log('Even Fibonacci numbers the sum of even value terms')
 // console.log(problemTwo([1,2]))
 
+// console.log('------------------')
+// console.log('What is the largest prime factor of the number 600851475143')
+// console.log(problemThree(600851475143))
+
 console.log('------------------')
-console.log('What is the largest prime factor of the number 600851475143')
-console.log(problemThree(600851475143))
+console.log('Find the largest palindrome made from the product of two 3-digit numbers.')
+console.log(problemFour(999, 999))
