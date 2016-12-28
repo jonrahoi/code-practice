@@ -3,6 +3,7 @@ var problemOne = require('./euler/problemOne')
 var problemTwo = require('./euler/problemTwo')
 var problemThree = require('./euler/problemThree')
 var problemFour = require('./euler/problemFour')
+var problemFive = require('./euler/problemFive')
 
 
 const myList = [
@@ -31,6 +32,10 @@ const totalSum = 1000
 // console.log('What is the largest prime factor of the number 600851475143')
 // console.log(problemThree(600851475143))
 
+// console.log('------------------')
+// console.log('Find the largest palindrome made from the product of two 3-digit numbers.')
+// console.log(problemFour(999, 999))
+
 console.log('------------------')
-console.log('Find the largest palindrome made from the product of two 3-digit numbers.')
-console.log(problemFour(999, 999))
+console.log('smallest positive number that is evenly divisible by all of the numbers from 1 to 20')
+console.log(problemFive(1))
